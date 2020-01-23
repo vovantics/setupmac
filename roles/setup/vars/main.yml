@@ -3,156 +3,77 @@
 general:
   local_home: "{{ lookup('env','HOME') }}"
 
-homebrew_kegs:
-  - neovim/homebrew-neovim
-  - adoptopenjdk/openjdk
-
 # homebrew applications
 applications:
   - ag
+  # - autojump
   - awscli
-  - bfg
-  - coreutils
-  - ammonite-repl
-# - azure-cli                          # Not used anymore
-  - bash-git-prompt
-  - cocoapods                          # For generating Xcode things, the Estimote SDK asked for it
-  - cputhrottle
+  - git
   - ctags
   - curl
-# - docker                             # Replaced by Docker for Mac
-# - docker-compose                     # Replaced by Docker for Mac
-# - docker-machine                     # Replaced by Docker for Mac
-# - docker-machine-parallels           # Replaced by Docker for Mac
-  - dos2unix
-  - findutils
-  - gawk
   - git
-  - gmp                                # Used for Research Exchange's `rex` repository: pycrypto
-  - gnu-getopt
-  - gnu-indent
-  - gnu-sed
-  - gnu-tar
-  - gnupg
-  - gnutls
-# - go                                 # Uses up too much space
-  - google-java-format
-  - graphviz                           # Used for Research Exchange's `rex` repository: pygraphviz
-  - grep
-  - highlight
-  - htop
-  - httpie
-  - jenv
-  - jmeter
-  - jsonpp
-  - jsonlint
-  - jq
+  # - go
+  # - httpie
+  # - hugo
   - kubectl
   - kubernetes-helm
-  - less
-  - libmemcached                       # Used for Research Exchange's `rex` repository: pylibmc
-  - libxml2                            # Used for Research Exchange's `rex` repository: xmlsec
-  - libxmlsec1                         # Used for Research Exchange's `rex` repository: xmlsec
-  - maven
-  - mill
-  - mosh
-  - multitail
-  - neovim
-  - nmap
-  - npm                                # Node.js Package Manager
-  - nodeenv                            # Virtualenv for Node.js
-  - openconnect                        # Cisco AnyConnect open-source version
   - openssh
-  - packer
+  # - neovim
+  - nodeenv
+  - npm
   - postgres
-  - pstree
-  - python3
-  - rdesktop
-  - readline
+  - redis
   - rsync
-  - ruby
-  - sbt
-  - scalariform
-  - sqlite
-  - teensy_loader_cli
-  - tmux
-  - tree
-  - typesafe-activator
-  - telnet
-  - terraform
-  - uni2ascii
+  # - saltstack
+  # - terraform
   - tor
+  - tree
   - vim
-  - wakeonlan
-  - watch
-  - watchman                           # Needed for node tests or something
   - wget
-  - yamllint
-#  - autojump
-#  - hugo
-#  - saltstack
-#  - zsh
+  # - zsh
 
 # homebrew cask applications
 cask_applications:
   - 1password
   - adobe-acrobat-reader
-  - adobe-digital-editions
-  - adoptopenjdk8                      # Java 8 JDK
-  - alfred
-  - bee
-  - bettertouchtool
-  - bluejeans                          # For Research Exchange
+  # - alfred
   - caffeine
-  - calibre
-  - dash
-  - disk-inventory-x
-  - docker                             # Docker for Mac
+  - charles
+  - cyberduck
+  # - emacs
+  - expo-xde
+  - docker
   - dropbox
   - firefox
-  - gitter
+  # - garmin-express
   - google-chrome
-  - haptic-touch-bar                   # Provides physical feedback for Apple's Touch Bar
-  - insomnia                           # HTTP request generator
-  - intellij-idea-ce
-  - istat-menus
-  - iterm2
+  - genymotion
   - java
   - java11
-  - jprofiler                          # Java Profiler
-  - key-codes
-  - caskroom/versions/java8
-  - kitematic                          # GUI for Docker containers
-  - macvim
-  - magicprefs
-  - minikube                           # Kubernetes for your local computer?
-  - openconnect-gui                    # Cisco AnyConnect open-source version
-#  - opera
-  - parallels
+  - insomnia
+  - istat-menus
+  - iterm2
+  - ledger-live
+  - minikube
+  - ngrok
   - postico
-  - plex-media-player
-  - plex-media-server
-  - pycharm                            # IntelliJ IDEA for Python
+  - postman
+  - robo-3t
   - sequel-pro
+  - sketch
   - skype
   - slack
   - soundcleod
   - spotify
-  - stay
-  - steam
-  - tableplus                          # PostgreSQL client for Mac
-  - teensy                             # Firmware loader for Ergo Dox EZ Keybaord
+  - sublime-text
+  # - steam
   - telegram
   - tor-browser
   - transmission
-  - tunnelbear
   - tunnelblick
   - vagrant
-  - viber
-  - virtualbox                          # The Vagrant provider
-  - visual-studio-code
+  - videostream
+  - virtualbox
   - vlc
-  - webstorm
   - whatsapp
-  - xquartz                             # For rdesktop
   - zoomus

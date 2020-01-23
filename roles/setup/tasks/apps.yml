@@ -11,11 +11,11 @@
   with_dict: "{{downloads}}"
   when: downloads is defined
 
-- name: Tap Homebrew kegs
-  homebrew:
-    name: "{{item}}"
-    state: present
-  with_items: "{{homebrew_kegs}}"
+#- name: Tap Homebrew kegs
+#  homebrew:
+#    name: "{{item}}"
+#    state: present
+#  with_items: "{{homebrew_kegs}}"
 
 - name: Start installing Homebrew applications
   homebrew:
