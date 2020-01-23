@@ -3,6 +3,9 @@
 general:
   local_home: "{{ lookup('env','HOME') }}"
 
+homebrew_kegs:
+  - nodenv/nodenv
+
 # homebrew applications
 applications:
   - ag
@@ -19,7 +22,8 @@ applications:
   - kubernetes-helm
   - openssh
   # - neovim
-  - nodeenv
+  - nodenv
+  - nodenv-package-json-engine
   - npm
   - postgres
   - redis
