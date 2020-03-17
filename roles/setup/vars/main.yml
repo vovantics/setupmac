@@ -72,6 +72,7 @@ cask_applications:
   - spotify
   - sublime-text
   # - steam
+  - tableplus
   - telegram
   - tor-browser
   - transmission
