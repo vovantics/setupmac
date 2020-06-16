@@ -26,8 +26,8 @@ applications:
   - nodenv
   - nodenv-package-json-engine
   - npm
-  - postgres
-  - redis
+  # - postgres
+  # - redis
   - rsync
   # - saltstack
   # - terraform
