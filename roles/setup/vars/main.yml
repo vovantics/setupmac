@@ -17,6 +17,7 @@ applications:
   - curl
   - git
   # - go
+  - knqyf263/pet/pet
   # - httpie
   # - hugo
   - kubectl
@@ -27,6 +28,7 @@ applications:
   - nodenv-package-json-engine
   - npm
   # - postgres
+  - pwsafe
   # - redis
   - rsync
   # - saltstack
