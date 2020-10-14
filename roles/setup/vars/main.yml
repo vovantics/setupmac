@@ -4,7 +4,7 @@ general:
   local_home: "{{ lookup('env','HOME') }}"
 
 homebrew_kegs:
-  - nodenv/nodenv
+  # - nodenv/nodenv
 
 # homebrew applications
 applications:
@@ -24,10 +24,12 @@ applications:
   - kubernetes-helm
   - openssh
   # - neovim
-  - nodenv
-  - nodenv-package-json-engine
+  # - nodenv
+  # - nodenv-package-json-engine
+  - n
   - npm
   # - postgres
+  - postgresql
   - pwsafe
   # - redis
   - rsync
@@ -55,12 +57,14 @@ cask_applications:
   # - garmin-express
   - google-chrome
   - genymotion
-  - java
-  - java11
   - insomnia
+  - intellij-idea
   - istat-menus
   - iterm2
+  - java
+  - java11
   - ledger-live
+  - lens
   - minikube
   - ngrok
   - postico
